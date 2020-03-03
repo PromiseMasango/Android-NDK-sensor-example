@@ -3,8 +3,8 @@
 ## Use C and NDK to access sensors without using Java.
 
 ## Prerequisites ##
-* Android NDK - API-19
-_ NDK comes with a C compiler and header files. If you want to compile the program for a different android API level(other than API 19), replace libandroid.so with the one of the API level you want to compile for.
+* Android NDK (API-19).
+* If you want to compile the program for a different android API level(other than API 19), replace libandroid.so with the one of the API level you want to compile for.
 
 ## Getting started ##
 ### Setup environment ###
@@ -16,3 +16,6 @@ _ NDK comes with a C compiler and header files. If you want to compile the progr
 6. Enter the Android-NDK-sensor-example folder and open terminal inside.
 7. type *make* on the terminal to compile.
 8. Use ADB to send the executable file to target device.
+
+## Example of the sensor data from the target device
+![alt text](https://github.com/PromiseMasango/Android-NDK-sensor-example/blob/master/sensor_data_example.png "Sensor data from target device")
