@@ -1,12 +1,12 @@
-#Android NDK sensor example#
+# Android NDK sensor example #
 
-##Use C and NDK to access sensors without using Java.
+## Use C and NDK to access sensors without using Java.
 
-##Prerequisites##
+## Prerequisites ##
 * Android NDK - API-19
 _ NDK comes with a C compiler and header files. If you want to compile the program for a different android API level(other than API 19), replace libandroid.so with the one of the API level you want to compile for _
 
-##Getting started##
+## Getting started ##
 1. Setup environment
 * Go to the terminal.
 * export $PATH to your NDK bin folder(I assumed you already installed NDK.
